@@ -3,8 +3,9 @@ Obiekt to określony egzemplarz klasy opisany zgodnymi z zawartością klasy typ
 Zmienna to element przechowujący wartość, np liczy lub wyrazy.
 Każda zmienna musi mieć określony typ, np. int, albo String.
 Jeżeli deklarację zmiennej poprzedzimy słowem final, to może byc zainicjowana tylko raz, ponownie wyskoczy bląd.
-W klasie mogą się znajdować pola, wartości i  jej nazwa.
+W klasie mogą się znajdować specyfikatory dostepu, metody i  konstruktory.
 Konstruktory są wywoływane przez operator new i służą do tworzenia nowych obiektów.
 Jeśli w klasie zdefiniowano chociaż jeden konstruktor to kompilator nie wygeneruje dla nas konstruktora domyślnego.
 Zakładając, że istnieje klasa Car, to przy zapisie:
 car1 i car2 to dwie referencje wskazujace na ten sam obiekt.
+
