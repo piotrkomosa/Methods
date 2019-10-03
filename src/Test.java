@@ -12,10 +12,12 @@ public class Test {
 
         Calcualtions mathCalc3 = new Calcualtions();
         boolean isEven = mathCalc3.isEven(7);
-        System.out.println("liczba " + mathCalc3.number3 + " jest " + isEven);
+        int number3=9;
+        System.out.println("liczba " + number3 + " jest " + isEven);
 
         Calcualtions mathCalc4 = new Calcualtions();
         boolean isOdd = mathCalc4.isOdd(7);
-        System.out.println("liczba " + mathCalc4.number3 + " jest " + isOdd);
+        int number4 =6;
+        System.out.println("liczba " + number4+ " jest " + isOdd);
     }
 }
